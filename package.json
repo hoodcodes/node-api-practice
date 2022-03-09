@@ -1,11 +1,25 @@
 {
   "name": "node-api-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is for my quickly punching out API ideas in Node which are based on the app and demo ideas I have come up with.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoodcodes/node-api-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hoodcodes/node-api-practice/issues"
+  },
+  "homepage": "https://github.com/hoodcodes/node-api-practice#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
 }
